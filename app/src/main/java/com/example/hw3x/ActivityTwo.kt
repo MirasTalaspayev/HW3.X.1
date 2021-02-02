@@ -15,7 +15,6 @@ class ActivityTwo : AppCompatActivity() {
 
         findViewById<Button>(R.id.show_message).setOnClickListener() {
             Toast.makeText(this@ActivityTwo, s, Toast.LENGTH_SHORT).show()
-            Log.d("asd", "works: $s")
         }
 
     }

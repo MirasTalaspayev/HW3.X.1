@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.btn_navigate).setOnClickListener() {
             if (edText.text.isNullOrEmpty()) {
                 Toast.makeText(this@MainActivity, "Text is empty", Toast.LENGTH_SHORT).show()
-                Log.d("main", "works from main")
                 return@setOnClickListener
             }
             val intent = Intent(this@MainActivity, ActivityTwo::class.java)
